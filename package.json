@@ -1,0 +1,14 @@
+{
+  "name": "@botsocket/db-plugin",
+  "version": "0.0.1",
+  "description": "Database plugin for BotSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BotSocket",
+  "license": "ISC",
+  "dependencies": {
+    "@botsocket/bone": "^1.0.0"
+  }
+}
