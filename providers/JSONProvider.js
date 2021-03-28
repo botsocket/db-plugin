@@ -3,12 +3,12 @@
 const Fs = require('fs/promises');
 const Path = require('path');
 
-module.exports = class JSONlProvider {
+module.exports = class JSONProvider {
 
     constructor(options) {
 
         const { dataDir = './data' } = options;
-
+        
         this.dataDir = dataDir;
     }
 
